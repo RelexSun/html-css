@@ -1,0 +1,46 @@
+* {
+  color: rgb(0, 0, 0);
+}
+h1,
+h2,
+h3,
+p {
+  font-family: sans-serif;
+}
+
+header h1 {
+  color: rgb(59, 163, 186);
+  font-size: 50px;
+
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 25px;
+color: aliceblue;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer {
+  font-size: 16px;
+}
+article h2 {
+  font-style: italic;
+}
+
+.related-ul {
+  list-style: none;
+}
+
+aside {
+  background-color: rgb(64, 139, 139);
+  border-top: 5px solid whitesmoke;
+  border-bottom: 5px solid whitesmoke;
+  
+}
