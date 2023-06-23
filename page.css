@@ -1,3 +1,47 @@
-img {
+body {
   border: solid;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+img {
+  border-top: solid;
+  border-bottom: solid;
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: none;
+}
+
+.button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.button:hover {
+  color: rgb(0, 0, 0);
+}
+.B {
+  background-color: black;
+  transition: 0.3s;
+  margin-left: 40%;
+  padding: 1rem;
+}
+
+.B:hover {
+  background-color: rgba(0, 0, 0, 0.31);
+  transition: 0.3s;
+  transform: translateY(-100%);
+}
+
+.B:hover a::after {
+  text-decoration: none;
 }
