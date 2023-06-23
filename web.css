@@ -1,6 +1,7 @@
 * {
   color: rgb(0, 0, 0);
 }
+
 h1,
 h2,
 h3,
@@ -11,12 +12,13 @@ p {
 header h1 {
   color: rgb(59, 163, 186);
   font-size: 50px;
-
   text-transform: uppercase;
 }
+
 h2 {
   font-size: 40px;
 }
+
 p {
   line-height: 1.5;
 }
@@ -27,9 +29,11 @@ h3 {
   text-align: center;
   text-transform: uppercase;
 }
+
 footer {
   font-size: 16px;
 }
+
 article h2 {
   font-style: italic;
 }
@@ -48,27 +52,39 @@ aside {
 li:first-child {
   font-weight: bold;
 }
+
 li:last-child {
   font-style: italic;
 }
+
 li:nth-child(2) {
   color: red;
 }
+
 li:nth-child(3) {
   text-transform: uppercase;
 }
+
 /*a:visited {
   color: aqua;
 }*/
+
 .related-ul a:hover {
   color: aquamarine;
   font-size: 50px;
   text-decoration: underline;
 }
+
 a {
   text-decoration: none;
 }
+
 .related-ul a:active {
   font-style: italic;
   background-color: black;
+}
+
+.green-img {
+  width: 100%;
+  max-width: 500px;
 }
