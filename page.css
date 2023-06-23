@@ -2,17 +2,22 @@ body {
   border: solid;
   font-family: sans-serif;
   line-height: 1.4;
+  background: linear-gradient(#84dccf, #a6d9f7);
 }
 
 img {
-  border-top: solid;
-  border-bottom: solid;
-  width: 100%;
+  border: solid;
+
+  width: 70%;
   max-width: 500px;
+  margin-left: 15%;
 }
 
 h1 {
   text-align: center;
+  background-color: #a6d9f7;
+  padding: 50px;
+  margin: 0;
 }
 
 .price {
@@ -32,8 +37,9 @@ h1 {
 .B {
   background-color: black;
   transition: 0.3s;
-  margin-left: 40%;
+  margin-left: 35%;
   padding: 1rem;
+  border: none;
 }
 
 .B:hover {
