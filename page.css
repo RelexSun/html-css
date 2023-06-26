@@ -1,16 +1,24 @@
 body {
+  background: linear-gradient(#84dccf, #a6d9f7);
+}
+
+.container {
   border: solid;
   font-family: sans-serif;
   line-height: 1.4;
-  background: linear-gradient(#84dccf, #a6d9f7);
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
 }
 
 img {
   border: solid;
-
   width: 70%;
   max-width: 500px;
-  margin-left: 15%;
+}
+
+.article {
+  padding: 10px;
 }
 
 h1 {
@@ -28,24 +36,31 @@ h1 {
 
 .button {
   text-decoration: none;
+  text-transform: uppercase;
   color: rgb(255, 255, 255);
+  font-size: 25px;
 }
 
 .button:hover {
   color: rgb(0, 0, 0);
 }
+
 .B {
   background-color: black;
-  transition: 0.3s;
+  /* transition: 0.3s;
   margin-left: 35%;
-  padding: 1rem;
+  padding: 1rem; */
+
   border: none;
+  width: 100%;
+  height: 50px;
 }
 
 .B:hover {
   background-color: rgba(0, 0, 0, 0.31);
-  transition: 0.3s;
-  transform: translateY(-100%);
+  /* transition: 0.3s;
+  transform: translateY(-100%); */
+  border-top: solid;
 }
 
 .B:hover a::after {
