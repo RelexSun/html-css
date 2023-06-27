@@ -88,7 +88,12 @@ h1 {
 }
 
 .colors {
-  width: 50px;
+  width: 220px;
   height: 20px;
-  display: column;
+  background-color: black;
+
+}
+
+.blue {
+  background-color: blue;
 }
