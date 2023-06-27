@@ -114,3 +114,22 @@ button {
   bottom: 25px;
   right: 0;
 }
+
+h1::first-letter {
+  font-style: italic;
+  margin-right: 10px;
+  font-size: 100px;
+}
+
+h1::after {
+  content: "TOP";
+  background-color: yellow;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}

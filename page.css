@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(#84dccf, #a6d9f7);
+  background: rgb(178, 178, 178);
 }
 
 .container {
@@ -9,6 +9,13 @@ body {
   max-width: 1000px;
   height: auto;
   margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
 }
 
 img {
@@ -23,7 +30,7 @@ img {
 
 h1 {
   text-align: center;
-  background-color: #a6d9f7;
+  background-color: #ffffff;
   padding: 50px;
   margin: 0;
 }
@@ -65,4 +72,23 @@ h1 {
 
 .B:hover a::after {
   text-decoration: none;
+}
+
+.sale {
+  background-color: rgb(208, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 50px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -80px;
+  left: -60px;
+  letter-spacing: 7px;
+}
+
+.colors {
+  width: 50px;
+  height: 20px;
+  display: column;
 }
